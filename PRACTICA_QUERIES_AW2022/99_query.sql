@@ -1,0 +1,5 @@
+SELECT TOP 1 FirstName AS Nom
+FROM Person.Person
+GROUP BY FirstName WITH ROLLUP
+HAVING LEN(FirstName) = 10
+ORDER BY COUNT(*) DESC;

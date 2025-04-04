@@ -1,0 +1,1 @@
+SELECT AVG(Rate) AS PromedioSalarioBase FROM HumanResources.EmployeePayHistory;
